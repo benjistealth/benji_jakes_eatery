@@ -1,0 +1,150 @@
+/* Navigation styles */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    display: flex;
+    background-color: white;
+    height: 230px;
+    background-image: url("../images/jakes-logo.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 10px;
+}
+
+.nav {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.left, .centre, .right {
+    display: flex;
+    height: 50px;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+}
+
+.left, .right {
+    width: 20%;
+    
+}
+.centre {
+    width: 50%;
+}
+
+.center a {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none; 
+    font-family: Arial;
+}
+
+.button {
+    display: flex;
+}
+.left button {
+    background-color: skyblue;
+    font-size: 18px;
+    height: 140%;
+    width: 35%;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.right button {
+    background-color: yellow;
+    height: 100%;
+    width: 40%;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+}
+/* Column styles */
+.column {
+    display: flex;
+    height: 1200px;
+    width: 800px;
+    flex-direction: column;
+    margin: auto;
+}
+
+.meal1, .meal2, .meal3 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.meal1 {
+    margin-top: 20px;
+    background-image: url("../images/steak.png");
+}
+
+.meal2 {
+    background-image: url("../images/soup.png");
+}
+
+.meal3 {
+    background-image: url("../images/cheesecake.png");
+}
+
+.text {
+    background-color: rgb(0,0,0,0.7);
+    width: 100%;
+    padding: 20px 40px;
+    color: white;
+}
+
+p {
+    color: rgba(255,255,255,0.70);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Footer Styles */
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    text-decoration: none;
+    
+}
+
+.footer .fb {
+    color: blue;
+}
+
+.footer .tw {
+    color: yellow;
+}
+
+.footer .ig {
+    color: red;
+}
